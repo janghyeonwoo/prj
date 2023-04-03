@@ -26,6 +26,15 @@ public class TestController {
     @Autowired
     private EntityManager entityManager;
 
+    @Autowired
+    private MyConfig myConfig;
+
+
+    @GetMapping("/config")
+    public MyConfig getMyConfig(){
+        return myConfig;
+    }
+
 
     @GetMapping
     public LeagueSummaryRsp getTest(){

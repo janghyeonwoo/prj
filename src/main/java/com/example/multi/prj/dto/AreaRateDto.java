@@ -7,22 +7,16 @@ import lombok.Setter;
 @Getter
 @Setter
 public class AreaRateDto {
-    //    @Schema(description = "강원도 수")
     private double gwCnt;
 
-    //    @Schema(description = "수도권 수")
     private double sdCnt;
 
-    //    @Schema(description = "충청도 수")
     private double ccCnt;
 
-    //    @Schema(description = "경상도 수")
     private double gsCnt;
 
-    //    @Schema(description = "전라도 수")
     private double jlCnt;
 
-    //    @Schema(description = "제주도 수")
     private double jjCnt;
 
     public AreaRateDto() {
